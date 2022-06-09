@@ -133,6 +133,16 @@ header {
 /* ---------------------------------------------------------------------- */
 
 @media (max-width: 768px){
+
+    .header-brand {
+        text-align: left;
+    }
+    
+    .header-brand img {
+        width: 200px;
+        margin: 10px;
+    }
+    
     /* ---------------- TOGGLE ------------------------- */
     .toggle{
         display: block;
