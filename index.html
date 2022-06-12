@@ -1,75 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
-    <link rel="stylesheet" href="header.css">
-    <title>Archivo Central - Gob Cauca</title>
-    <script defer src="responsive.js"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Archivo Central - Gob Cauca</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medilab - v4.7.1
+  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-    
-    <div class="wraper">
 
-        <header>
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container align-items-center">
+      <a href="index.html"><img id="banner-img" class="rounded mx-auto d-block" src="assets/img/logo-escudo.png" alt=""></a>
+    </div>
+  </div>
 
-            <div class="header-brand">
-				<a href="index.html"><img src="media/logo-escudo.png" alt="logo-gobernacion"></a>
-			</div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
 
-            <button class="toggle">
-                <img class="toggle-img" src="media/hamburger.png" alt="toggle" aria-label="Abrir menu">
-            </button>
-            
+      <h1 class="logo me-auto"><a href="index.html">Archivo Central</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-            <nav class="navbar">
-                <ul>
-                    <li><a class="menu-item" href="#">DIRECCIONES</a></li>
-                    <li><a class="menu-item" href="#">ARTICULOS <i class="fas fa-caret-down"></i></a>
-                        <ul>
-                            <li><a href="#">Leyes</a></li>
-                            <li><a href="#">Ordenanzas</a></li>
-                            <li><a href="#">Acuerdos</a></li>
-                            <li><a href="#">Decretos</a></li>
-                            <li><a href="#">Estatutos</a></li>
-                        </ul>
-                    </li>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">INICIO</a></li>
+          <li><a class="nav-link scrollto" href="#direcciones">DIRECCIONES</a></li>
+          <li><a class="nav-link scrollto" href="#leyes">LEYES</a></li>
+          <li class="dropdown"><a href="#municipios"><span>MUNICIPIOS</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#municipios">Creacion Municipios</a></li>
+              <li><a href="#municipios">Categorizacion Municipios</a></li>
+              <li><a href="#municipios">Creacion Escuelas</a></li>
+              <li><a href="#municipios">Division Territorial</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#historico"><span>HISTORICO</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#historico">Gobernadores</a></li>
+              <li><a href="#historico">Nomina Payaneses</a></li>
+              <li><a href="#historico">Reseña Historica</a></li>
+              <li><a href="#historico">Ilgesias y Museos</a></li>
+            </ul>
+          </li>
 
-                    <li><a class="menu-item" href="#">MUNICIPIOS <i class="fas fa-caret-down"></i></a>
-                        <ul>
-                            <li><a href="#">Creacion Municipios</a></li>
-                            <li><a href="#">Categorizacion Municipios</a></li>
-                            <li><a href="#">Creacion Escuelas</a></li>
-                            <li><a href="#">Division Territorial</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a class="menu-item" href="#">HISTORICO <i class="fas fa-caret-down"></i></a>
-                            <ul>
-                                <li><a href="#">Gobernadores</a></li>
-                                <li><a href="#">Nomina Payaneses</a></li>
-                                <li><a href="#">Reseña Historica</a></li>
-                                <li><a href="#">Iglesias y Museos</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </nav>  
-
-        </header>
-
-        <main>
-
-            <h2>Bienvenido a la Pagina Principal</h2>
-            
-        </main>
-
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
     </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <h1>BIENVENIDO</h1>
+      <h2>Esta es la version digital del Archivo Central de la Gobernacion del Cauca</h2>
+    </div>
+  </section><!-- End Hero -->
+  <section id="hero" class="d-flex align-items-center"></section>
+  
+
+  <main id="main">
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="direcciones" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>DIRECCIONES</h2>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a target="_blank" href="https://docs.google.com/spreadsheets/d/1bcK9TVef-uEFORZ8ZxVqPdpDqtkdyX6y/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">Descargar<i class="bx bx-chevron-down icon-show"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <section id="hero" class="d-flex align-items-center"></section>
+
+      </div>
+    </section><!-- End Appointment Section -->
+
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="municipios" class="faq section-bg">
+      <div class="container">
+        <BR></BR>
+        <div class="section-title">
+          <h2>MUNICIPIOS</h2>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a class="collapsed">Creacion Municipios<i class="bx bx-chevron-down icon-show"></i></a>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a class="collapsed">Categorizacion Municipios<i class="bx bx-chevron-down icon-show"></i></a>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a class="collapsed">Creacion Escuelas<i class="bx bx-chevron-down icon-show"></i></a>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a class="collapsed">Division Territorial<i class="bx bx-chevron-down icon-show"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <section id="hero" class="d-flex align-items-center"></section>
+
+      </div>
+    </section><!-- End Appointment Section -->
+
+
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="historico" class="faq section-bg">
+      <div class="container">
+        <BR></BR>
+        <div class="section-title">
+          <h2>HISTORICO</h2>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a class="collapsed">Gobernadores<i class="bx bx-chevron-down icon-show"></i></a>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a class="collapsed">Nomina Payaneses<i class="bx bx-chevron-down icon-show"></i></a>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a class="collapsed">Reseña Historica<i class="bx bx-chevron-down icon-show"></i></a>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a class="collapsed">Ilgesias y Museos<i class="bx bx-chevron-down icon-show"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <section id="hero" class="d-flex align-items-center"></section>
+
+      </div>
+    </section><!-- End Appointment Section -->
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="leyes" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>LEYES</h2>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1G_JijmRZs8oT2XnsLEs2pLYPbQ3i0-d-/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">2.1 LEYES 1960<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1WrJ2QIRaxR9czcC-f2iQAgdWYUZvZIY_/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">2.2 LEYES 1961<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1CnMSmhkBsEnhw0Xmx5rBkEF0Evpa3u6Y/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">2.3 LEYES 1962<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1Kvu0lompNbLj7UelOJdZULKiR-qxMzed/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">2.4 LEYES 1963<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1yBqni_vzQqs-n8sTPCf04y-p5U1fTFYP/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">2.5 LEYES 1964<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1pKdtiiuxMYXzaK4yk1cpF5YjAyqlUPBe/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">2.6 LEYES 1965<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1Lcr_oo0nSSAAz64e4ctwkC1VWkZP22fb/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">2.7 LEYES 1966<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1nuRT0ctOt-I2BNHH6QuIfDHFW2pKs24T/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">2.8 LEYES 1967<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1UT2UZxSNK1QQcb17LItJ0KYX_ho6sD24/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">2.9 LEYES 1968<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1aoWA-yLuDGMRuZ9XIkkCVdR0nTR9sPTd/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.0 LEYES 1969<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/14-hw4hRjvY4XskH8OJ2ZRDgIcNrJavrd/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.1 LEYES 1970<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1XCy8MoVHaoEYwAB0dj23HspPfxom3zmS/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.2 LEYES 1971<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1egkrggnsXixHVvvgeGJfq0cDmm5O2ZoW/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.3 LEYES 1972<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1x6V1zxdFP9lNtic_UKM-k7C-o7gTx7He/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.4 LEYES 1973<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1gWcn6D6tsLn8oghv6Zg9lK_opLwFAbGy/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.5 LEYES 1974<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1eUXZW4igiF7v1y6izuSCzp_W6Lhcaz-1/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.6 LEYES 1975<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1YzBThWJivNlzg5Ia9IjjRqZSlX0PmNxL/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.7 LEYES 1976<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1ONhkFEHxPkfAYre_sC2t8KbCGqLsuICd/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.8 LEYES 1977<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/19Qx59rfVWH50X_7Ng5bnMMa4wgyGYzcR/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">3.9 LEYES 1978<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1jAfPLACYxj_oEhItOyS_KyefJaR9Rtox/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.0 LEYES 1979<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1NxEqRWPW4B9AyT0bfJh7aI0u5bjx4l1w/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.1 LEYES 1980<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1RQSZF3aAASNS1eYbGBzKODq2pRKDdg8u/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.2 LEYES 1981<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1ieaWgdxHPiI0D_OuhJJvE3ODwlrmrflV/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.3 LEYES 1982<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1KEOZGU7-U8eXkbCNyvFmmlwlHxCSgIyR/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.4 LEYES 1983<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1vIsZqNckLwEdPzn1EiRvCbwnGIkyOyey/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.5 LEYES 1984<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1Tx_sYKBgyEHd-Haz1F1wKQBKNZsuU_6b/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.6 LEYES 1985<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1QTxz5APPZZ_MXpZQ-wnkyt5PAGKe_vXM/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.7 LEYES 1986<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1QsCT-shCqGPuNMlKnG_y7MTFjE_zbIFL/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.8 LEYES 1987<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1896Rr0pa11_QEof-HeU95Wrs0OjICFsH/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">4.9 LEYES 1988<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1fKutbcgSLCF6Ue6MNb9eBnWkxWWrlqTm/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.0 LEYES 1989<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1pYA9o3kgDJP7gHpopfYwp6FwCu9jSvuV/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.1 LEYES 1990<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1odBvAGwbeV70kj4UG1BOHml1bd8WINNu/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.2 LEYES 1991<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1-3r37ZZKU6T-BZTirJO0z5ZMZttsvtnW/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.3 LEYES 1992<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1gwCBl08W4rU7aHAZzImxPkCT3yU0ZHWS/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.4 LEYES 1993<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/137nZycqIfqk6EJCyeLpRHwV-ZaH3Yfu9/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.5 LEYES 1994<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/10Cq-r2qt8K8O5t5ctWTV_vF9HLXucjmJ/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.6 LEYES 1995<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1-8_T2L-5H2CP8FfXxTym5Kobs10E-Woc/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.7 LEYES 1996<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1OUiDG7wPn0rBE13fJFNxCEJuk7nxLkSH/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.8 LEYES 1997<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1_nW0_kXf3c6s3UZc2i6ZAnIytkf8Rw51/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">5.9 LEYES 1998<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1ZJ2mCKCIFygqqpEfMsounOVeyoziTqWH/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">6.9 LEYES 1999<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1NkANchWgIOB7YnKGoKgF6LaoRaQWMxy9/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">7.0 LEYES 2000<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1LdKlImTWEywQMK05sDTV245Gu-ACRT5q/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">7.1 LEYES 2001<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1rtpMwJpfvdcE9Wsoyk4Zd0avZiQN_pBy/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">7.2 LEYES 2002<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1pNatYkjf1yx3lqm6aOuKgm9nhKT4nYzF/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">7.3 LEYES 2003<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1lIqRifpFwqalDfEWCLDs5Mov3UkoqjUs/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">7.4 LEYES 2004<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/11Jgui9287kq_u2-vov-mfGR113iAfifz/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">7.5 LEYES 2005<i class="bx bx-chevron-down icon-show"></i></a></li>
+            <li data-aos="fade-up" data-aos-delay="100"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1uX6c7LcC8mOUURtdD-jFqfaDVta_MSyf/edit?usp=sharing&ouid=113862072402458735027&rtpof=true&sd=true" class="collapsed">7.6 LEYES 2006<i class="bx bx-chevron-down icon-show"></i></a></li>
+          </ul>
+        </div>
+
+  </div>
+</section><!-- End Appointment Section -->
+
     
 
+    
+
+  </main><!-- End #main -->
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
-<script src="header.js"></script>
+
 </html>
